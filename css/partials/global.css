@@ -21,6 +21,9 @@
 }
 
 .button.primary-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background: var(--gradient-color);
   background-clip: padding-box;
   color: whitesmoke;
@@ -48,6 +51,9 @@
 }
 
 .button.secondary-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background: white;
   background-clip: padding-box;
   transition: background 0.6s ease;
