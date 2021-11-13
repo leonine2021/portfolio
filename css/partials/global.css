@@ -94,5 +94,5 @@ button:active button:hover .btn:active,
   background: #0000007c;
   box-shadow: var(--box-shadow);
   z-index: 999;
-  transition: background 0.1s ease;
+  /* transition: background 0.1s ease; */
 }
