@@ -29,8 +29,10 @@ $(document).ready(function () {
       $(window).scroll(function () {
         let scroll = $(window).scrollTop();
         if (scroll >= nav_offset_top) {
+          $(".header_area .main-menu").css("background-color", "");
           $(".header_area .main-menu").addClass("navbar_fixed");
         } else {
+          $(".header_area .main-menu").css("background-color", "#000000");
           $(".header_area .main-menu").removeClass("navbar_fixed");
         }
       });

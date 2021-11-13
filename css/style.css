@@ -38,15 +38,16 @@ a.nav-link {
   font: normal 500 15px/2px var(--roboto);
   text-transform: uppercase;
   padding: 1.7rem;
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: whitesmoke;
 }
 
-.header_area .main-menu .navbar-nav .active a {
+/* .header_area .main-menu .navbar-nav .active a {
   background: var(--gradient-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
+} */
 
 .header_area .main-menu .navbar-nav a:hover {
   background: var(--gradient-color);
